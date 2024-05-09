@@ -26,7 +26,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-4/5">
           <div className="flex flex-col text-4xl font-bold my-2 md:mt-0 md:text-5xl">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-teal-500 to-cyan-500">
-              <span>Hello, I&#39am</span>
+              <span>Hello, I{"'"}m</span>
               <br></br>
               <TypeAnimation
                 sequence={[
@@ -51,7 +51,7 @@ const HeroSection = () => {
             </h1>
           </div>
           <p className="text-lg text-justify my-4 md:text-2xl">
-            I&#39m an aspiring{" "}
+            I{"'"}m an aspiring{" "}
             <span className="font-semibold text-teal-400">
               {" "}
               Software Engineer
@@ -90,7 +90,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center space-y-6 mx-auto md:my-4">
         <hr className="w-full h-0.5 bg-gradient-to-r from-green-500  via-teal-500 to-cyan-500 border-0 rounded"></hr>
         <h1 className=" font-extralight italic items-center text-xl sm:my-auto md:text-4xl">
-          &quotDo what you love, love what you do.&quot
+          {'"'}Do what you love, love what you do.{'"'}
         </h1>
         <hr className="w-full h-0.5 bg-gradient-to-l from-green-500 via-teal-500 to-cyan-500 border-0 rounded"></hr>
       </div>
