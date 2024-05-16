@@ -34,28 +34,25 @@ export default function Navbar() {
   return (
     <header className="bg-base-100 w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow">
       <div className="justify-between md:items-center md:flex">
-        <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link
-              to="home"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
+        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <Link
+            to="home"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+          <div className="flex items-center space-x-2">
+            <h2 className="text-2xl font-bold ">Neil Rendell T. Reglos</h2>
+          </div>
+          </Link>
+          <div className="md:hidden">
+            <button
+              className="p-2 rounded-md outline-none focus:border-gray-400 focus:border"
+              onClick={() => setNavbar(!navbar)}
             >
-              <div className="container flex items-center space-x-2 ">
-                <h2 className="text-2xl font-bold ">Neil Rendell T. Reglos</h2>
-              </div>
-            </Link>
-            <div className="md:hidden">
-              <button
-                className="p-2 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbar(!navbar)}
-              >
-                {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
-              </button>
-            </div>
+              {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
+            </button>
           </div>
         </div>
         <div>
@@ -74,7 +71,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
+                      "block lg:inline-block hover:text-neutral-500 dark:text-neutral-100 cursor-pointer hover:underline"
                     }
                     activeClass="active"
                     spy={true}

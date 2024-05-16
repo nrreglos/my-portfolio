@@ -26,7 +26,7 @@ const AboutSection = () => {
   }, []);
   return (
     <section id="about">
-      <div className="my-8 w-full pb-12  md:pt-16 md:pb-48">
+      <div className="my-8 w-full pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
           <hr className="w-16 h-1 mx-auto bg-gradient-to-r from-green-500  via-teal-500 to-cyan-500 border-0 rounded mt-2"></hr>
@@ -87,12 +87,12 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               My Skills
             </h1>
-            <div className="flex flex-wrap flex-row justify-center md:justify-start">
+            <div className="flex flex-wrap flex-row justify-flex md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gradient-to-r from-emerald-400 to-cyan-400 px-4 py-2 mr-2 mt-2 text-gray-800 rounded font-semibold"
+                    className="bg-gradient-to-r from-emerald-400 to-cyan-400 px-4 py-2 mr-2 mt-2 text-gray-800 rounded font-semibold text-center"
                   >
                     {item.skill}
                   </p>
