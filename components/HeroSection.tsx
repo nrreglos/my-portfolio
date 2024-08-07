@@ -25,7 +25,7 @@ const HeroSection = () => {
             />
           </div>
           <div className="md:mt-2 md:w-4/5">
-            <div className="flex flex-col text-4xl font-bold my-2 md:mt-0 md:text-5xl">
+            <div className="flex flex-col text-2xl font-bold my-1 md:mt-0 md:text-5xl">
               <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-teal-500 to-cyan-500">
                 <span>Hello, I{"'"}m</span>
                 <br></br>
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 />
               </h1>
             </div>
-            <p className="text-lg text-justify my-4 md:text-2xl">
+            <p className="text-md text-justify my-2 md:text-2xl">
               I{"'"}m an aspiring{" "}
               <span className="font-semibold text-teal-400">
                 {" "}
