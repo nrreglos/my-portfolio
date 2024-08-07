@@ -38,7 +38,7 @@ const HeroSection = () => {
                     2000,
                     "A Programmer",
                     2000,
-                    "A Computer Engr",
+                    "A Computer Engineer",
                     2000,
                   ]}
                   wrapper="span"
