@@ -15,7 +15,7 @@ const HeroSection = () => {
     <section id="home">
       <div className="pt-12 flex flex-col space-y-8 w-full mx-auto">
         <div className="flex flex-col text-center items-center justify-center sm:my-12 sm:py-2 md:py-20 md:flex-row md:text-left">
-          <div className="md:w-1/2 md:mt-2 my-6">
+          <div className="md:w-1/2 md:mt-2 mt-6 mb-1">
             <Image
               className="rounded-full md:w-80 w-60 shadow-2xl border-stone-600 border-1"
               src="/headshot.png"
