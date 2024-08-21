@@ -7,14 +7,14 @@ import { saveAs } from "file-saver";
 import { TypeAnimation } from "react-type-animation";
 
 const toDownloadCV = () => {
-  saveAs("/CV-Reglos-Neil-Rendell.pdf"); // Replace with your file URL
+  saveAs("/CV_Reglos-Neil-Rendell.pdf"); // Replace with your file URL
 };
 
 const HeroSection = () => {
   return (
     <section id="home">
       <div className="pt-12 flex flex-col space-y-8 w-full mx-auto">
-        <div className="flex flex-col text-center items-center justify-center sm:my-12 sm:py-2 md:py-20 md:flex-row md:text-left">
+        <div className="flex flex-col text-center items-center justify-center sm:my-12 sm:py-2 md:py-12 md:flex-row md:text-left">
           <div className="md:w-1/2 md:mt-2 mt-6 mb-1">
             <Image
               className="rounded-full md:w-80 w-60 shadow-2xl border-stone-600 border-1"
@@ -79,7 +79,7 @@ const HeroSection = () => {
                 <Link
                   to=""
                   className="text-base font-semibold px-6 py-3
-                 outline outline-1 -outline-offset-1 outline-teal-500 from-green-300 to-cyan-500 rounded-full hover:bg-gradient-to-l hover:from-green-500 hover:via-teal-500 hover:to-cyan-500"
+                  outline outline-1 -outline-offset-1 outline-teal-500 from-green-300 to-cyan-500 rounded-full hover:bg-gradient-to-l hover:from-green-500 hover:via-teal-500 hover:to-cyan-500"
                   onClick={toDownloadCV}
                 >
                   Download CV
