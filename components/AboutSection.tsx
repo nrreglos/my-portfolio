@@ -2,7 +2,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const skills = [
   { skill: "MS Excel, Word, Power Point, PowerApps and SQL" },
   { skill: "C++" },
